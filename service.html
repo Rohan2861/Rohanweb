@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <style>
+      .card
+      {
+        transform-style: preserve-3d;
+      transform: perspective(1000px);
+      }
+      .icon-wrapper i, h3,p 
+      {
+        transform: translateZ(60px);
+      }
+      ::-webkit-scrollbar {
+      width: 0.8em;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #d900ff;
+    }
+    </style>
+   
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="servicebg">
+    <section class="service pt-5 text-center">
+        <div>
+        <h1 class="deepshadow pt-5"></h1>
+    </div>
+    </section>
+    <section class="pt-5">
+        <div class="container-xl container-lg container-md container-sm">
+            <div class=" row">
+                <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
+                    <div class="column">
+                        <div class="card"data-tilt>
+                          <div class="icon-wrapper">
+                            <i class="bi bi-code"></i>
+                          </div>
+                          <h3 class="pt-4">HTML & CSS Website</h3>
+                          <p class="pt-3">
+                            A fully rensponsive website using custom HTML-5 & CSS-3 codes.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12 pb-5">
+                    <div class="column">
+                        <div class="card"data-tilt>
+                          <div class="icon-wrapper">
+                            <i class="bi bi-bootstrap-fill"></i>
+                          </div>
+                          <h3 class="pt-4 text-uppercase">Bootstrap Website</h3>
+                          <p class="pt-3">
+                            A fully customized & responsive website using latest version of Bootstrap framework
+                          </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12 pb-5">
+                    <div class="column">
+                        <div class="card"data-tilt >
+                          <div class="icon-wrapper">
+                            <img src="images/uilogo.png" alt="">
+                          </div>
+                          <h3 class="pt-4">UIKIT WEBSITE</h3>
+                          <p class="pt-3">
+                            A fully customized & responsive website using latest version of ui-kit framework.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6  col-sm-12 pb-5">
+                    <div class="column">
+                        <div class="card"data-tilt >
+                          <div class="icon-wrapper">
+                            <img src="images/tailwindicon.png" alt="">
+                          </div>
+                          <h3 class="pt-4">TAILWINDCSS WEBSITE</h3>
+                          <p class="pt-3">
+                            A fully customized & responsive website using latest version of TAILWINDCSSframework.
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6  col-sm-12 pb-5">
+                    <div class="column">
+                        <div class="card"data-tilt >
+                          <div class="icon-wrapper">
+                            <i class="bi bi-wordpress"></i>
+                          </div>
+                          <h3 class="pt-4">WORDPRESS WEBSITE</h3>
+                          <p class="pt-3">
+                            A fully functional & customized website using Wordpress.
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col pb-5">
+                    <div class="column" >
+                        <div class="card" data-tilt >
+                          <div class="icon-wrapper">
+                            <img src="images/shake-hand.png" width="70%" alt="">
+                          </div>
+                          <h3 class="pt-4">FREELANCE</h3>
+                          <p class="pt-3">
+                            FREELANCE ALSO AVAILABLE YOU CAN CONTACT ME ANYTIME.
+                          </p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+  </body>
+</html>
